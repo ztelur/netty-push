@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: test-application
+
+
+spring:
+  cloud:
+    sentinel:
+      port: 7080
+      dashboard: localhost:9999
